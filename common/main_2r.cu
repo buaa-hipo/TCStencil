@@ -1,5 +1,5 @@
 #include <mma.h>
-#include "common/common.hpp"
+#include "common.hpp"
 
 // #define TEST_HALF_PREC
 
