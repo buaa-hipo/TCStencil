@@ -151,6 +151,6 @@ def mult_tile_pass(data_dir):
 
 
 if __name__ == '__main__':
-    data_dir = './data/{}/brick/'
+    data_dir = './data/{}/layout16/'
     tile1_pass(data_dir)
     mult_tile_pass(data_dir)

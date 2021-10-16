@@ -44,13 +44,13 @@ def pick_best_csv(lines, filename):
 
 
 if __name__ == '__main__':
-    data_dir = './data/A100/brick/'
+    data_dir = './data/A100/layout16/'
     config_csv = load_result(data_dir + 'ncu_result.txt')
     store_csv(config_csv, data_dir + 'ncu_result_full.csv')
     pick_tile_csv(config_csv, 1, data_dir + 'ncu_result_tile1.csv')
     pick_best_csv(config_csv, data_dir + 'ncu_result_best.csv')
 
-    data_dir = './data/V100/brick/'
+    data_dir = './data/V100/layout16/'
     config_csv = load_result(data_dir + 'ncu_result.txt')
     store_csv(config_csv, data_dir + 'ncu_result_full.csv')
     pick_tile_csv(config_csv, 1, data_dir + 'ncu_result_tile1.csv')

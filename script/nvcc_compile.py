@@ -46,7 +46,7 @@ def run_file_serial(file_list):
         print('{index}/{total} {file_name}'.format(index=index,
                                                    total=len(file_list), file_name=file_name))
         cmd = example_cmd.format(
-            file_name=file_name, output_file='./data/{}/brick/ncu_result.txt'.format(args.arch),
+            file_name=file_name, output_file='./data/{}/layout16/ncu_result.txt'.format(args.arch),
             BIN_DIR=BINARY_DIR)
         proc = subprocess.Popen(cmd.split(' '))
         proc.wait()

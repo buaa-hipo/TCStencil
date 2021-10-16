@@ -6,7 +6,7 @@ FLAG_DICT = {
 }
 
 
-TENSOR_DIR = './brick/'
+TENSOR_DIR = './layout16/'
 BASELINE_DIR = './baseline/'
 COMMON_DIR = './common/'
 BINARY_DIR = './bin_ncu/'
