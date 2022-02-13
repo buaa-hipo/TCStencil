@@ -15,7 +15,6 @@ using namespace nvcuda;
 // * * * * *
 //     *
 //     *
-//处理9点stencil，半径r=2
 extern "C" __global__ void mma_run(half *__restrict__ A, half *__restrict__ coe_a, half *__restrict__ coe_b, half *__restrict__ C, int N, int tile_size, int *index1, int *index2) {
     __shared__ half data[256];
     __shared__ half halo[64];

@@ -17,7 +17,6 @@ using namespace nvcuda;
 // * * * * *
 // * * * * *
 // * * * * *
-//处理25点stencil，半径r=2
 extern "C" __global__ void kernel_run(half *__restrict__ A, half *__restrict__ C, int N, int tile_size, int *index1, int *index2);
 
 

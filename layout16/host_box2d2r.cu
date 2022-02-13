@@ -54,7 +54,6 @@ void init_coe(half *__restrict__ B, half *__restrict__ coe, int n) {
 // * * * * *
 // * * * * *
 // * * * * *
-//处理25点stencil，半径r=2
 extern "C" __global__ void mma_run(half *__restrict__ A, half *__restrict__ coe,
                                half *__restrict__ C, int N, int tile_size, int *index1, int *index2);
 

@@ -76,7 +76,6 @@ void set_halo_index(int *index1, int *index2, int N) {
 // * * * * *
 //     *
 //     *
-//处理9点stencil，半径r=2
 extern "C" __global__ void kernel_run(half *__restrict__ A, half *__restrict__ C, int N, int tile_size, int *index1, int *index2);
 
 extern "C" void host_code(float *h_A, float *h_B, float *h_C, int N, int n) {
